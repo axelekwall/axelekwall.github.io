@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+.title-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title-wrapper h1 {
+  font-size: 50px;
+  margin: 100px;
+}
+
+#content {
+  width: 100%;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.content-wrapper ul {
+  margin: 0 100px;
+  list-style: none;
+  padding: 0;
+}
+
+.content-wrapper ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.content-wrapper a:hover {
+  color: #999;
+  margin-left: 10px;
+  font-size: 38px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.title-wrapper p {
+  max-width: 1000px;
+  margin: 10px 100px;
+}
