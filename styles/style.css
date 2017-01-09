@@ -13,7 +13,7 @@ header {
 
 .title-wrapper h1 {
   font-size: 50px;
-  margin: 100px;
+  margin: 10%;
 }
 
 #content {
@@ -22,11 +22,11 @@ header {
 
 .content-wrapper {
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 10% auto;
 }
 
 .content-wrapper ul {
-  margin: 0 100px;
+  margin: 0 10%;
   list-style: none;
   padding: 0;
 }
@@ -48,9 +48,20 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: white;
+  z-index: 2;
 }
 
 .title-wrapper p {
   max-width: 1000px;
-  margin: 10px 100px;
+  margin: 10px 10%;
+}
+
+@media only screen and (max-width: 720px) {
+  .content-wrapper ul li a {
+    font-size: 20px;
+  }
+  .title-wrapper h1 {
+    font-size: 40px;
+  }
 }
